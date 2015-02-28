@@ -14200,6 +14200,10 @@ Source: http://www.schrack.com/.. 5847.pdf</description>
 <part name="K1" library="relay" deviceset="CQ1-12V" device=""/>
 <part name="K2" library="relay" deviceset="JJM2W-12V" device=""/>
 <part name="K3" library="relay" deviceset="ZNS5*" device="" technology="106"/>
+<part name="K4" library="relay" deviceset="ZNS5*" device="" technology="106"/>
+<part name="K5" library="relay" deviceset="ZNS5*" device="" technology="106"/>
+<part name="K6" library="relay" deviceset="ZNS5*" device="" technology="106"/>
+<part name="K7" library="relay" deviceset="ZNS5*" device="" technology="106"/>
 </parts>
 <sheets>
 <sheet>
@@ -14235,6 +14239,7 @@ Source: http://www.schrack.com/.. 5847.pdf</description>
 5 FB</text>
 <text x="-228.6" y="139.7" size="1.778" layer="91">a moze arduino?</text>
 <text x="-193.04" y="20.32" size="1.778" layer="91">a moze arduino?</text>
+<text x="-55.88" y="276.86" size="1.778" layer="91">BATERIA</text>
 </plain>
 <instances>
 <instance part="C10" gate="G$1" x="83.82" y="154.94"/>
@@ -14344,12 +14349,20 @@ Source: http://www.schrack.com/.. 5847.pdf</description>
 <instance part="D4" gate="G$1" x="-180.34" y="71.12"/>
 <instance part="GND10" gate="1" x="-223.52" y="7.62"/>
 <instance part="IC1" gate="G$1" x="-203.2" y="35.56"/>
-<instance part="K1" gate="1" x="-116.84" y="-15.24"/>
-<instance part="K1" gate="2" x="-99.06" y="-15.24"/>
-<instance part="K2" gate="1" x="-165.1" y="-12.7"/>
-<instance part="K2" gate="2" x="-147.32" y="-12.7"/>
-<instance part="K3" gate="1" x="-215.9" y="-10.16"/>
-<instance part="K3" gate="2" x="-198.12" y="-10.16"/>
+<instance part="K1" gate="1" x="-434.34" y="45.72"/>
+<instance part="K1" gate="2" x="-416.56" y="45.72"/>
+<instance part="K2" gate="1" x="-414.02" y="-2.54"/>
+<instance part="K2" gate="2" x="-401.32" y="0"/>
+<instance part="K3" gate="1" x="-292.1" y="45.72"/>
+<instance part="K3" gate="2" x="-294.64" y="25.4"/>
+<instance part="K4" gate="1" x="-96.52" y="208.28"/>
+<instance part="K4" gate="2" x="-78.74" y="210.82"/>
+<instance part="K5" gate="1" x="-93.98" y="276.86"/>
+<instance part="K5" gate="2" x="-73.66" y="276.86"/>
+<instance part="K6" gate="1" x="-48.26" y="104.14" rot="R90"/>
+<instance part="K6" gate="2" x="-45.72" y="124.46" rot="R90"/>
+<instance part="K7" gate="1" x="-73.66" y="50.8" rot="R90"/>
+<instance part="K7" gate="2" x="-71.12" y="71.12" rot="R90"/>
 </instances>
 <busses>
 </busses>
